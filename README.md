@@ -1,3 +1,5 @@
+_From the experimental series "Kuru"_
+
 # 🌙 KuruBot
 
 **KuruBot** is an intelligent RAG (Retrieval-Augmented Generation) chatbot built with the [T3 Stack](https://create.t3.gg/) that transforms your documents into conversational AI experiences. Upload your PDFs, ask questions, and get accurate, context-aware responses powered by cutting-edge AI technology.
