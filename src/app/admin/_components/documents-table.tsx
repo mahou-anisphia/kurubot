@@ -201,7 +201,17 @@ export function DocumentsTable({
               </TableRow>
             </TableHeader>
             <TableBody>
-              {documents.map((doc) => (
+              {documents.length === 0 ? (
+                <TableRow>
+                  <TableCell colSpan={7} className="h-24 text-center">
+                    <div className="text-muted-foreground">
+                      <FileText className="mx-auto mb-2 h-8 w-8" />
+                      <p>No documents uploaded yet</p>
+                    </div>
+                  </TableCell>
+                </TableRow>
+              ) : (
+                documents.map((doc) => (
                 <TableRow key={doc.id}>
                   <TableCell>
                     <div className="flex items-center gap-2">
@@ -355,7 +365,8 @@ export function DocumentsTable({
                     </div>
                   </TableCell>
                 </TableRow>
-              ))}
+              ))
+              )}
             </TableBody>
           </Table>
         </div>

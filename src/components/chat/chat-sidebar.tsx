@@ -289,7 +289,3 @@ export function ChatSidebar({
     </div>
   );
 }
-
-
-
-

@@ -33,7 +33,3 @@ export function ChatLayoutClient({ children }: ChatLayoutClientProps) {
     </div>
   );
 }
-
-
-
-
